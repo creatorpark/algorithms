@@ -1,13 +1,8 @@
 package sort;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import sort.BaseSort;
-import sort.MergeSort;
 
 public class TestMergeSort {
 
