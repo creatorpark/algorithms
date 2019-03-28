@@ -4,6 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import util.SortUtil;
+
 public class TestMergeSort {
 
 	private int[] input;
@@ -17,7 +19,7 @@ public class TestMergeSort {
 	
 	@After
 	public void tearDown() throws Exception {
-		BaseSort.printAfterData(result);
+		SortUtil.printAfterData(result);
 		System.out.println();
 	}
 

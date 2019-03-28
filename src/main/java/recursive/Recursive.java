@@ -2,13 +2,6 @@ package recursive;
 
 public class Recursive {
 	
-	/**
-	 * n >= 3
-	 * n = 5 : 5ë²ˆì§¸ ?ˆ«?
-	 * n = 9 : 9ë²ˆì§¸ ?ˆ«?
-	 * @param n
-	 * @return
-	 */
 	public static int fibonacci(int n) {
 		if ( n == 1 || n == 2 ) {
 			return 1;
@@ -17,10 +10,6 @@ public class Recursive {
 		}
 	}
 	
-	/**
-	 * @param n
-	 * @return
-	 */
 	public static int factorial(int n) {
 		
 		if ( n == 0 || n == 1) return 1;

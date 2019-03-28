@@ -1,6 +1,8 @@
 package sort;
 
-public class MergeSort extends BaseSort {
+import util.SortUtil;
+
+public class MergeSort extends SortUtil {
 	
 	public static  void mergeSort(int array[], int left, int right) {
 		if ( right > left ) {
