@@ -9,8 +9,11 @@ public abstract class CompareSort {
 	
 	public void sort() {
 		int[] unsortedData = DataUtil.getUnsortedArray();
+		
 		SortUtil.showUnsortedData(sortAlgorithm, unsortedData );
+		
 		int[] sortedData = sort( unsortedData );
+		
 		SortUtil.showSortedData(sortedData);
 	}
 
